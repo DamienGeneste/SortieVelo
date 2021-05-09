@@ -1,0 +1,21 @@
+#contenu {
+    float: right;
+    margin-top: 20000px;
+    margin-right: 5000px;
+}
+
+#notice a:hover
+{
+  font-weight: bold;
+  color: #1E90FF;
+}
+
+/* Elements principaux de la page */
+body
+{
+  background: url('../images/fond.jpg');
+  font-family: 'Dayrom','Trebuchet MS', Arial, sans-serif;
+  color: #181818;
+}
+
+
