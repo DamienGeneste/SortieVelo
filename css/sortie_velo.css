@@ -1,5 +1,3 @@
-
-
 /* Elements principaux de la page */
 /*body
 {
@@ -36,12 +34,12 @@
     height: 100%;
     z-index: 1;
     opacity: 0.55;
-    background-image: url('../images/fond2.jpg');
+    background-image: url('../images/fond2.png');
     background-size: cover;
     background-repeat: repeat;
 }
 
-.bouton_rouge:nth-child(1)
+/*.bouton_rouge:nth-child(1)
 {
     height: 25px;
     right: 5px;
@@ -53,11 +51,24 @@
     font-weight: bold;
     text-align: center;
     padding: 3px 8px 0px 8px;
-    /*color: white;*/
+      color: white;
     text-decoration: none;
   box-shadow: 6px 6px 6px black;
+}*/
+
+#contenu {
+    float: right;
+    margin-top: 20000px;
+    margin-right: 5000px;
 }
-.bouton_rouge:nth-child(2)
+
+a:hover
+{
+  font-weight: bold;
+  color: #1E90FF;
+}
+
+.bouton_rouge
 {
     height: 25px;
     right: 5px;
@@ -69,18 +80,11 @@
     font-weight: bold;
     text-align: center;
     padding: 3px 8px 0px 8px;
-    /*color: white;*/
+    color: white;
     text-decoration: none;
-  box-shadow: 6px 6px 6px black;
-}
-#contenu {
-    float: right;
-    margin-top: 20000px;
-    margin-right: 5000px;
+    box-shadow: 6px 6px 6px black;
 }
 
-#notice a:hover
-{
-  font-weight: bold;
-  color: #1E90FF;
+.jour {
+    font-weight: bold;
 }
