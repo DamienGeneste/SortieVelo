@@ -40,7 +40,22 @@
     background-size: cover;
     background-repeat: repeat;
 }
-
+.bouton_rouge:nth-child(2)
+{
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    background-image: linear-gradient(#B20000,#330000);/* #55AAFF,#000055*/
+    border: 1px solid #000055;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    /*color: white;*/
+    text-decoration: none;
+  box-shadow: 6px 6px 6px black;
+}
 #contenu {
     float: right;
     margin-top: 20000px;
