@@ -40,6 +40,23 @@
     background-size: cover;
     background-repeat: repeat;
 }
+
+.bouton_rouge:nth-child(1)
+{
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    background-image: linear-gradient(#00AA00,#005500);
+    border: 1px solid #228B22;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    /*color: white;*/
+    text-decoration: none;
+  box-shadow: 6px 6px 6px black;
+}
 .bouton_rouge:nth-child(2)
 {
     height: 25px;
